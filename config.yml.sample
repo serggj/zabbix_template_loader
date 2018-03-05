@@ -1,0 +1,57 @@
+api:
+  zapi_url: 'http://localhost:8081'
+  user: 'Admin'
+  password: 'zabbix'
+
+api_format: xml
+pool_limit: 4
+
+import_rules:
+  templates:
+    createMissing: true
+    updateExisting: true
+  applications:
+    createMissing: true
+    deleteMissing: true
+  discoveryRules:
+    createMissing: true
+    updateExisting: true
+    deleteMissing: true
+  graphs:
+    createMissing: true
+    updateExisting: true
+    deleteMissing: true
+  groups:
+    createMissing: true
+  hosts:
+    createMissing: true
+    updateExisting: true
+  images:
+    createMissing: true
+    updateExisting: true
+  items:
+    createMissing: true
+    updateExisting: true
+    deleteMissing: true
+  maps:
+    createMissing: true
+    updateExisting: true
+  screens:
+    createMissing: true
+    updateExisting: true
+  templateLinkage:
+    createMissing: true
+  templates:
+    createMissing: true
+    updateExisting: true
+  templateScreens:
+    createMissing: true
+    updateExisting: true
+    deleteMissing: true
+  triggers:
+    createMissing: true
+    updateExisting: true
+    deleteMissing: true
+  valueMaps:
+    createMissing: true
+    updateExisting: true
