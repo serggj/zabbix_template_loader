@@ -10,8 +10,8 @@ Intro
 
 Подготовка к работе 
 ===================
-1)установить зависимости из requirements.txt     
-2)создать конфиг(config.yml) в рабочей директории 
+1. установить зависимости из requirements.txt     
+2. создать конфиг(config.yml) в рабочей директории 
     (по умолчанию директория со скриптом), пример есть в config.yml.sample
 
 Help
@@ -40,15 +40,15 @@ optional arguments:
 
 Примеры
 ========
-1)Сравнение 2 шаблонов из файлов с шаблонами в базе
+1. Сравнение 2 шаблонов из файлов с шаблонами в базе
 ```
 ./zabbix_template_loader.py  -c exports/Template_VM_VMware_Guest.xml exports/Template_Net_Juniper_SNMPv2.xml 
 ```
-2)Импорт 2 шаблонов 
+2. Импорт 2 шаблонов 
 ```
 ./zabbix_template_loader.py  -i exports/Template_VM_VMware_Guest.xml exports/Template_Net_Juniper_SNMPv2.xml 
 ```
-3)Экспорт 2 шаблонов 
+3. Экспорт 2 шаблонов 
 ```
 ./zabbix_template_loader.py  -e 'Template OS Linux' 'Template OS Windows'
 
